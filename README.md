@@ -15,3 +15,10 @@ The MessagePrinter bean should have a property of type MessageService and use au
 The MessagePrinter bean should have a method that prints the message returned by the MessageService bean.
 In the main method of the Main class, create an instance of the ClassPathXmlApplicationContext class and use it to load the XML configuration file.
 Retrieve the MessagePrinter bean from the application context and call the method that prints the message.
+
+#Spring- Boot Application:
+
+# Question :
+
+Create a Spring boot application with one Controller class (Maven project)
+add a method which will be called when "/status" api is called, and it will return "Running, {Current Time}"
